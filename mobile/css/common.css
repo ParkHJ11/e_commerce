@@ -1,0 +1,124 @@
+/* TYPOGRAPHY */
+body {
+  font-family: 'SF UI Display Light';
+  font-size: 15px;
+  color: #4a4a4a;
+}
+.heading1 {
+  font-family: 'SF UI Display Heavy';
+  font-size: 36px;
+  letter-spacing: 0.29px;
+}
+.heading2 {
+  font-family: 'SF UI Display bold';
+  font-size: 26px;
+  letter-spacing: 0.21px;
+}
+.heading3 {
+  font-family: 'SF UI Display heavy';
+  font-size: 24px;
+  letter-spacing: 0.19px;
+}
+.heading4 {
+  font-family: 'SF UI Display Heavy';
+  font-size: 20px;
+}
+.heading5 {
+  font-family: 'SF UI Display semibold';
+  font-size: 20px;
+}
+.heading6 {
+  font-family: 'SF UI Display semibold';
+  font-size: 14px;
+  letter-spacing: 0.11px;
+}
+
+/* Link & Button */
+.btn {
+  border: none;
+  background-color: #262628;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'SF UI Display Medium';
+  letter-spacing: 0.11px;
+}
+
+.big {
+  font-size: 14px;
+  /* 여기서 중요한것은 버튼의 height값을 주면 안되는것 */
+  line-height: 50px;
+  font-family: 'SF UI Display Semibold';
+}
+
+.default {
+  font-size: 13px;
+  line-height: 38px;
+}
+.small {
+  font-size: 30px;
+  line-height: 30px;
+}
+p {
+  line-height: 18px;
+}
+.hidden {
+  position: fixed;
+  top: 0;
+  left: -9999em;
+  overflow: hidden;
+  visibility: hidden;
+}
+a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* ----------------------  icon images  ---------------------- */
+.arrow_left {
+  font-size: 24px;
+}
+.close {
+  font-size: 24px;
+}
+.aside_menu_toggle {
+  font-size: 24px;
+}
+.wishlist {
+  font-size: 24px;
+}
+.cart {
+  font-size: 24px;
+}
+.plus {
+  font-size: 24px;
+}
+.share {
+  font-size: 24px;
+}
+.search_icon {
+  font-size: 24px;
+}
+.barcode {
+  font-size: 24px;
+}
+.star {
+  font-size: 16px;
+}
+
+.sm_padding {
+  padding: 0 17px;
+}
+.big_padding {
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #f5f5f5;
+  margin: 0;
+}

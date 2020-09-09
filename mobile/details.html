@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home - Eshop</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+
+  <body>
+    <main class="front">
+      <header class="home_header">
+        <div class="product_details_header">
+          <a href="" class="go_back">
+            <span class="material-icons arrow_left"> keyboard_backspace </span>
+          </a>
+          <h2>Outerwear</h2>
+        </div>
+        <div class="top_links">
+          <a href="" class="material-icons cart" data-cart-count="4">card_travel</a>
+        </div>
+      </header>
+
+      <div class="home_content">
+        <div class="search sm_padding">
+          <form action="">
+            <label for="search"><span class="material-icons search_icon">search</span></label>
+            <input type="text" id="search" placeholder="Search ..." />
+          </form>
+          <div class="open_barcode">
+            <span class="material-icons barcode"> qr_code_scanner </span>
+          </div>
+        </div>
+        <div class="product_details sm_padding">
+          <div class="top_info">
+            <div class="product_img">
+              <div class="product_img_top">
+                <img src="images/outwear_big_01.jpg" alt="outerwear" />
+                <div class="buttons">
+                  <form action="">
+                    <button><i class="material-icons wishlist">favorite_border</i></button>
+                  </form>
+                  <span><i class="material-icons share">share</i></span>
+                </div>
+              </div>
+              <div class="product_img_bottom">
+                <div class="titles">
+                  <h3>Kimono</h3>
+                  <h4>$89.00</h4>
+                </div>
+                <form action="cart.html">
+                  <button class="btn default">Add to Cart</button>
+                </form>
+              </div>
+            </div>
+            <hr />
+            <div class="product_thumb">
+              <div class="product_thumb_container">
+                <ul class="product_thumb_slides swiper-wrapper">
+                  <li class="swiper-slide">
+                    <img
+                      src="images/outwear_sm_01.jpg"
+                      alt="outwear_sm_01"
+                      data-big-img="images/outerwear_large_01.jpg"
+                    />
+                  </li>
+                  <li class="swiper-slide">
+                    <img src="images/outwear_sm_02.jpg" alt="outwear_sm_02" />
+                  </li>
+                  <li class="swiper-slide">
+                    <img src="images/outwear_sm_03.jpg" alt="outwear_sm_03" />
+                  </li>
+                  <li class="swiper-slide">
+                    <img src="images/outwear_sm_02.jpg" alt="outwear_sm_02" />
+                  </li>
+                  <li class="swiper-slide">
+                    <img src="images/outwear_sm_03.jpg" alt="outwear_sm_03" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="description">
+            <h3 class="product_detail_tt"></h3>
+            <div class="desc_content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, hic!</p>
+              <p><span class="uppercase">height of model:</span> 178 cm. / 5’ 10”</p>
+            </div>
+          </div>
+          <div class="people_like">
+            <h3 class="product_detail_tt">People like this</h3>
+            <div class="like_content">
+              <ul>
+                <li><img src="images/like_people_01.png" alt="like_people_01" /></li>
+                <li><img src="images/like_people_02.png" alt="like_people_02" /></li>
+                <li><img src="images/like_people_03.png" alt="like_people_03" /></li>
+                <li><img src="images/like_people_04.png" alt="like_people_04" /></li>
+                <li class="total_like">+32</li>
+              </ul>
+            </div>
+          </div>
+          <div class="wear_with">
+            <h3 class="product_detail_tt">Wear with</h3>
+            <div class="wear_content">
+              <ul>
+                <li>
+                  <img src="images/wear_with_01.jpg" alt="wear_with_01" />
+                  <h4>RIBBED MIDI SKIRT</h4>
+                  <h5>$ 45.00</h5>
+                </li>
+                <li>
+                  <img src="images/wear_with_02.jpg" alt="wear_with_02" />
+                  <h4>HEEL ANKLE BOOTS</h4>
+                  <h5>$ 45.00</h5>
+                </li>
+                <li>
+                  <img src="images/wear_with_03.jpg" alt="wear_with_03" />
+                  <h4>EMBOSSED CITY BAG</h4>
+                  <h5>$ 45.00</h5>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="review">
+            <div class="review_header">
+              <h3 class="product_detail_tt">REVIEWS</h3>
+              <a href="">See all reviews</a>
+            </div>
+            <div class="review_content">
+              <ul>
+                <li>
+                  <img src="images/reviewer_thumb_01.png" alt="reviewer_thumb_01" />
+                  <div class="review_list_content">
+                    <div class="review_list_content_header">
+                      <div class="review_content_header_tt">
+                        <h4>Ellen McLaughlin</h4>
+                        <div class="rating" data-rate="4">
+                          <span class="material-icons star"> star </span>
+                          <span class="material-icons star"> star </span>
+                          <span class="material-icons star"> star </span>
+                          <span class="material-icons star"> star </span>
+                          <span class="material-icons star"> star </span>
+                        </div>
+                      </div>
+                      <div class="time">2 hours ago</div>
+                    </div>
+                    <div class="review_list_content_body">
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est hic corrupti
+                        enim quaerat possimus? Odio autem unde corporis nihil ipsum!
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <img src="images/reviewer_thumb_01.png" alt="reviewer_thumb_01" />
+                  <div class="review_list_content">
+                    <div class="review_list_content_header">
+                      <div class="review_content_header_tt">
+                        <h4>HJ Park</h4>
+                        <div class="rating" data-rate="3">
+                          <span class="material-icons star"> star </span>
+                          <span class="material-icons star"> star </span>
+                          <span class="material-icons star"> star </span>
+                          <span class="material-icons star"> star </span>
+                          <span class="material-icons star"> star </span>
+                        </div>
+                      </div>
+                      <div class="time">2 hours ago</div>
+                    </div>
+                    <div class="review_list_content_body">
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est hic corrupti
+                        enim quaerat possimus? Odio autem unde corporis nihil ipsum!
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <img src="images/reviewer_thumb_01.png" alt="reviewer_thumb_01" />
+                  <div class="review_list_content">
+                    <div class="review_list_content_header">
+                      <div class="review_content_header_tt">
+                        <h4>Ellen McLaughlin</h4>
+                        <div class="rating" data-rate="5">
+                          <span class="material-icons star"> star </span>
+                          <span class="material-icons star"> star </span>
+                          <span class="material-icons star"> star </span>
+                          <span class="material-icons star"> star </span>
+                          <span class="material-icons star"> star </span>
+                        </div>
+                      </div>
+                      <div class="time">2 hours ago</div>
+                    </div>
+                    <div class="review_list_content_body">
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est hic corrupti
+                        enim quaerat possimus? Odio autem unde corporis nihil ipsum!
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
